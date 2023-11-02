@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/porfolio-luljn.git/static/css/main.073c9b0a.css",
+    "main.js": "/porfolio-luljn.git/static/js/main.00549c2b.js",
+    "static/media/logo.svg": "/porfolio-luljn.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/porfolio-luljn.git/index.html",
+    "main.073c9b0a.css.map": "/porfolio-luljn.git/static/css/main.073c9b0a.css.map",
+    "main.00549c2b.js.map": "/porfolio-luljn.git/static/js/main.00549c2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.00549c2b.js"
+  ]
+}
