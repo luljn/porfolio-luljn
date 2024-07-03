@@ -46,10 +46,10 @@
                 <a class="nav-link" href="#expertise">Compétences</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Projets</a>
+                <a class="nav-link" href="#projets">Projets</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Expérience</a>
+                <a class="nav-link" href="#experience">Expérience</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Me Contacter</a>
@@ -71,15 +71,90 @@
               <h2>Développeur logiciel</h2>
               <h2>Étudiant-ingénieur en informatique</h2>
               <h2 class="fw-light">Bienvenue dans mon univers créatif</h2>
-              <a href="#expertise" class="btn btn-primary mt-5">Mon expertise</a>
+              <a href="#expertise" class="btn btn-primary mt-5">Mes compétences</a>
             </div>
             <div class="col-12 col-md-6">
-              <img src="img/portrait1.jpg" alt="Lula Jonathan" width="100%">
+              <img src="img/portrait1.jpg" alt="Lula Jonathan" width="100%" height="500">
             </div>
           </div>
         </div>
       </section>
       <!-- About-me -->
+
+      <!-- Projets -->
+      <section id="projets" class="py-5">
+        <div class="container">
+          <h2 class="mb-0">Mes projets</h2>
+          <div class="row gy-4 mt-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <!-- TSN -->
+              <div class="card">
+                <img src="https://picsum.photos/300/150?random=1" class="card-img-top" alt="projet 1">
+                <div class="card-body">
+                  <h5 class="card-title">The Social Network</h5>
+                  <p class="card-text my-3">
+                    Un réseau social avec des fonctionnalités de base(ajout de post, commentaires, like, unlike et follow) et développé avec les technologies de base du web
+                  </p>
+                  <!-- Offcanvas -->
+                  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#infoprojet1" aria-controls="offcanvasBottom">En savoir plus</button>
+                  <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoprojet1" aria-labelledby="offcanvasBottomLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasBottomLabel">The Social Network</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <!-- Caroussel -->
+                      <div id="carouselProject1" class="carousel slide shadow h-100" data-bs-ride="carousel" data-bs-touch="true">
+                        <div class="carousel-inner h-100">
+                              <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                  <img src="https://picsum.photos/1920/1080?random=11"
+                                        class="d-block w-100" alt="Image slide 1">
+                                  <div class="carousel-caption d-none d-md-block">
+                                      <h5>Slide 1</h5>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                          sollicitudin.</p>
+                                  </div>
+                              </div>
+                              <div class="carousel-item h-100" data-bs-interval="2000">
+                                  <img src="https://picsum.photos/1920/1080?random=21"
+                                        class="d-block w-100" alt="Image slide 2">
+                                  <div class="carousel-caption d-none d-md-block">
+                                      <h5>Slide 2</h5>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                          sollicitudin.</p>
+                                  </div>
+                              </div>
+                              <div class="carousel-item h-100">
+                                  <img src="https://picsum.photos/1920/1080?random=31"
+                                        class="d-block w-100" alt="Image slide 3">
+                                  <div class="carousel-caption d-none d-md-block">
+                                      <h5>Slide 3</h5>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                          sollicitudin.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button"
+                                  data-bs-target="#carouselProject1" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button"
+                                  data-bs-target="#carouselProject1" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- TSN -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projets -->
 
       <!-- Contact-me -->
       <section id="contact" class="py-5">
