@@ -7,6 +7,7 @@ This is my portfolio.
 - HTML
 - JavaScript
 - Bootstrap
+- PHP
 
 ## Author
 

@@ -568,33 +568,17 @@
       <section id="contact" class="py-5">
         <div class="container">
           <h2 class="mb-1">Un projet à réaliser ?</h2>
-          <h3 class="fw-light fs-5">Envoyez moi un mail</h3>
+          <h3 class="fw-light fs-5 mx-1 my-3">N'hésitez pas à me contacter.</h3>
 
           <div class="row gy-4 mt-5">
-            <div class="col-12 col-md-5">
-              <img src="img/grab-a-coffee.jpg" alt="..." width="100%">
+            <!-- <div class="col-12 col-md-5">
+              <img src="img/" alt="..." width="100%">
+            </div> -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <button class="btn btn-primary btn-block" onclick="openMailClient()">Envoyer un mail</button>
             </div>
-            <div class="col-12 offset-md-1 col-md-6">
-              <form action="" class="row gy-4">
-                <div class="col-6">
-                  <label for="prenom" class="form-label">Prénom</label>
-                  <input type="text" class="form-control" name="prenom" id="prenom"> 
-                </div>
-                <div class="col-6">
-                  <label for="nom" class="form-label">Nom</label>
-                  <input type="text" class="form-control" name="nom" id="nom">
-                </div>
-                <div class="col-12">
-                  <label for="email" class="form-label">Adresse Mail</label>
-                  <input type="text" class="form-control" name="email" id="email">
-                </div>
-                <div class="col-12">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea class="form-control" name="message" id="message" rows="3"></textarea>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary w-100">Envoyer</button>
-                </div>
+            <div class="col-6 offset-md-1 col-md-6">
+              <form id="mailForm" action="php/sendMail.php" method="POST" style="display:none;" class="row gy-4">
               </form>
             </div>
           </div>
