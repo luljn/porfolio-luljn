@@ -12,4 +12,3 @@
         header("Location: $mailtoLink");
         exit;
     }
-?>
