@@ -512,11 +512,7 @@
 
           <div class="row gy-4 mt-5">
             <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-              <button class="btn btn-primary btn-block" onclick="openMailClient()">Envoyer un mail</button>
-            </div>
-            <div class="col-6 offset-md-1 col-md-6">
-              <form id="mailForm" action="php/sendMail.php" method="POST" style="display:none;" class="row gy-4">
-              </form>
+              <button id="sendEmailButton" class="btn btn-primary btn-block">Envoyer un mail</button>
             </div>
           </div>
         </div>
@@ -584,7 +580,8 @@
     <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
 
     <!-- JS -->
-    <script src="js/script.js"></script>
+    <script src="js/tooltips.js"></script>
+    <script src="js/sendMail.js"></script>
         
   </body>
 
