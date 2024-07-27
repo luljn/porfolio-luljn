@@ -1,6 +1,6 @@
 document.getElementById('downloadButton').addEventListener('click', function() {
     // URL of the PDF file
-    var pdfUrl = '../files/CV-Lula_Jonathan_MBECK_MBOH.pdf';
+    var pdfUrl = 'https://luljn.github.io/porfolio-luljn/files/CV-Lula_Jonathan_MBECK_MBOH.pdf';
 
     // Open the PDF in a new tab
     window.open(pdfUrl, '_blank');
