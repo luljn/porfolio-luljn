@@ -2,6 +2,9 @@ document.getElementById('downloadButton').addEventListener('click', function() {
     // URL of the PDF file
     var pdfUrl = '../files/CV-Lula_Jonathan_MBECK_MBOH.pdf';
 
+    // Open the PDF in a new tab
+    window.open(pdfUrl, '_blank');
+
     // Create a new anchor element
     var a = document.createElement('a');
     a.href = pdfUrl;
