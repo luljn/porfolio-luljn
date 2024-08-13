@@ -1,6 +1,6 @@
 document.getElementById('downloadButton').addEventListener('click', function() {
     // URL of the PDF file
-    var pdfUrl = 'https://luljn.github.io/porfolio-luljn/files/CV-Lula_Jonathan_MBECK_MBOH.pdf';
+    var pdfUrl = 'https://luljn.github.io/porfolio-luljn/files/CV-Lula_MBECK.pdf';
 
     // Open the PDF in a new tab
     window.open(pdfUrl, '_blank');
@@ -8,7 +8,7 @@ document.getElementById('downloadButton').addEventListener('click', function() {
     // Create a new anchor element
     var a = document.createElement('a');
     a.href = pdfUrl;
-    a.download = 'CV-Lula_Jonathan_MBECK_MBOH.pdf'; // Name of the file to be downloaded
+    a.download = 'CV-Lula_MBECK.pdf'; // Name of the file to be downloaded
 
     // Append the anchor to the body (necessary for Firefox)
     document.body.appendChild(a);
