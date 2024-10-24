@@ -8,7 +8,7 @@ document.getElementById('downloadButton').addEventListener('click', function() {
     // Create a new anchor element
     var a = document.createElement('a');
     a.href = pdfUrl;
-    a.download = 'CV-Lula_MBECK.pdf'; // Name of the file to be downloaded
+    a.download = 'CV-Lula_Jonathan_MBECK.pdf'; // Name of the file to be downloaded
 
     // Append the anchor to the body (necessary for Firefox)
     document.body.appendChild(a);
