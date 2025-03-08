@@ -10,7 +10,7 @@ This is my portfolio.
 
 # Deployment
 
-Take a look here : <a href = "https://luljn.github.io/porfolio-luljn/" target = "blank">Portfolio Lula Jonathan.</a>
+Take a look here : <a href = "https://luljn.github.io/porfolio-luljn/" target = "_blank">Portfolio Lula Jonathan.</a>
 
 ## Author
 
